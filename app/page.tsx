@@ -78,6 +78,14 @@ export default function Page() {
               tags={["React", "Typescript", "Nextjs", "TailwindCSS"]}
             />
             <ProjectCard
+              title="Upwork Client Project"
+              description="Modern Landing Page with NextJS and Tailwind CSS"
+              image="/images/project-5.png"
+              link="https://szbc.academy/"
+              github="https://github.com/durim-dev"
+              tags={["React", "Typescript", "Nextjs", "TailwindCSS"]}
+            />
+            <ProjectCard
               title="Foodery: QR Code Dining Revolution"
               description="Modern food ordering platform developed using Next.js as PWA, TypeScript and Tailwind CSS."
               image="/images/project-3.png"
