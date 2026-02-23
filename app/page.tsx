@@ -70,6 +70,14 @@ export default function Page() {
               tags={["React", "Typescript", "Nextjs", "Prisma", "NeonDB"]}
             />
             <ProjectCard
+              title="Landing Page"
+              description="Modern Landing Page with NextJS and Tailwind CSS"
+              image="/images/project-4.png"
+              link="https://area-web-1.vercel.app/"
+              github="https://github.com/durim-dev/area.git"
+              tags={["React", "Typescript", "Nextjs", "TailwindCSS"]}
+            />
+            <ProjectCard
               title="Foodery: QR Code Dining Revolution"
               description="Modern food ordering platform developed using Next.js as PWA, TypeScript and Tailwind CSS."
               image="/images/project-3.png"
