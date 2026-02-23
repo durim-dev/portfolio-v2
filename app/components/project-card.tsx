@@ -23,12 +23,14 @@ export default function ProjectCard({
   return (
     <Card className="overflow-hidden py-0 flex flex-col h-full">
       <div className="relative aspect-video">
-        <Image
-          src={image || "/placeholder.svg"}
-          alt={title}
-          fill
-          className="object-cover transition-transform hover:scale-105"
-        />
+        <Link href={link} target="_blank">
+          <Image
+            src={image || "/placeholder.svg"}
+            alt={title}
+            fill
+            className="object-cover transition-transform hover:scale-105"
+          />
+        </Link>
       </div>
 
       {/* Make this flex-grow to fill space */}
